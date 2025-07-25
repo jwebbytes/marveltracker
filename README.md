@@ -19,7 +19,7 @@ MCU Tracker helps Marvel fans keep track of which movies and TV shows they've wa
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/jwebbytes/mcu-tracker.git
+git clone https://github.com/yourusername/mcu-tracker.git
 cd mcu-tracker
 ```
 
@@ -58,7 +58,6 @@ mcu-tracker/
 ├── public/
 ├── src/
 
-```
 
 ## Contributing
 
