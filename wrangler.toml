@@ -1,5 +1,5 @@
 name = "mcutracker"
 compatibility_date = "2025-07-29"
 
-[env.production]
-compatibility_date = "2025-07-29"
+[assets]
+directory = ".next"
