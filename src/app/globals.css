@@ -40,3 +40,11 @@ a {
     color-scheme: dark;
   }
 }
+
+.movielist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 100px;
+ margin-left: 10px;
+ margin-right: 90px;
+}
