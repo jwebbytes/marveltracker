@@ -1,14 +1,14 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #191970;
+  --foreground: #ededed;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {
@@ -48,3 +48,24 @@ a {
  margin-left: 10px;
  margin-right: 90px;
 }
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: -0.02em;
+  color: #e50914;
+  font-family: 'Georgia', serif;
+
+}
+
+.tagline {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #ffd700
+  
+}
+
