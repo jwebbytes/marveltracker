@@ -6,9 +6,9 @@ A React application for tracking your progress through the Marvel Cinematic Univ
 
 MCU Tracker helps Marvel fans keep track of which movies and TV shows they've watched in the Marvel Cinematic Universe. Mark episodes as watched, track your progress through each phase, and never miss a post-credits scene again!
 
-## Features
+## Planned Features
 
-- 📺 Track both MCU movies and Disney+ shows
+- 📺 Track both MCU movies and shows
 - ✅ Mark movies/episodes as watched
 - 📊 View your overall completion progress
 - 🎬 Organized by MCU Phases
