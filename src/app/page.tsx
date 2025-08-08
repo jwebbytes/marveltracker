@@ -1,8 +1,7 @@
 "use client";
 
-import styles from "./page.module.css";
-import Movie from "../components/Moviecard";
-import MovieList from "../components/Movielist";
+
+import Phaseselection from "../components/Phaseselection";
 
 export default function Home() {
   
@@ -11,7 +10,7 @@ export default function Home() {
      
       <h1 className="title">Welcome to the MCU Tracker</h1>
       <p className="tagline">Your one-stop solution for tracking Marvel Cinematic Universe movies and shows.</p>
-      <MovieList />
+      <Phaseselection />
     </div>
   );
 }

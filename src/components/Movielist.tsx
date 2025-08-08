@@ -13,7 +13,6 @@ function Movielist() {
             title={movie.name}
             description={movie.description}
             posterUrl={movie.link}
-           
             />
         ))}
     </div>
