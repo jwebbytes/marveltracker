@@ -6,13 +6,15 @@ import React, { useState } from "react";
 // Using components Dropdown and Movielist. State is passed
 function Phaseselection() {
 
-  const [selectedPhase, setSelectedPhase] = useState("1");
+  const [selectedPhase, setSelectedPhase] = useState(1);
 
   return (
     <div className="phaseselection">
-      <h2>Select a Phase</h2>
-      <Dropdown selectedPhase={selectedPhase} />
-      <Movielist />
+      <h2>Select a Phase: {selectedPhase}</h2>
+      <Dropdown 
+        onChange={(value)=>setSelectedPhase(value)} 
+        />
+      <Movielist selectedPhase={selectedPhase} />
     </div>
   );
 }
