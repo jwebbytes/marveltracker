@@ -1,4 +1,4 @@
-function Dropdown({onChange}: {onChange: (phase: number) => void}) {
+function Dropdown({onChange}: {onChange: (value: number) => void}) {
     return(
         <div className="dropdown">
             <label htmlFor="phase-select">Select Phase:</label>

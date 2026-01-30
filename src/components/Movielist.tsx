@@ -3,12 +3,15 @@ import Movie from "./Moviecard";
 import movieinfo from "@/movie.json";
 
 
-function Movielist({ selectedPhase }) {
+function Movielist({ selectedPhase }: { selectedPhase: number }) {
+
+  const phaseMovies = movieinfo.filter(movie => movie.phase === selectedPhase); //Filter movies based on phase selected
+
   return (
   
     <div className="movielist">
-          <h2>The phase is: {selectedPhase}</h2>
-        {movieinfo.map((movie) => (
+       
+        {phaseMovies.map((movie) => (
             <Movie
             key={movie.id}
             title={movie.name}
@@ -16,6 +19,7 @@ function Movielist({ selectedPhase }) {
             posterUrl={movie.link}
             />
         ))}
+       
     </div>
   );
 }

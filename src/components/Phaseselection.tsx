@@ -10,11 +10,11 @@ function Phaseselection() {
 
   return (
     <div className="phaseselection">
-      <h2>Select a Phase: {selectedPhase}</h2>
+      <h2>Infinity Sage - Phase {selectedPhase}</h2>
       <Dropdown 
         onChange={(value)=>setSelectedPhase(value)} 
         />
-      <Movielist selectedPhase={selectedPhase} />
+      <Movielist selectedPhase={(selectedPhase)} />
     </div>
   );
 }
